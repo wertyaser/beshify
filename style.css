@@ -1,0 +1,47 @@
+/* * {
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+} */
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  /* width: 70%; */
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+main h1 {
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+  margin-bottom: 30px;
+}
+.input {
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input input[type="text"] {
+  width: 500px;
+  padding: 10px;
+}
+.copy {
+  width: 7%;
+}
+.output {
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+}
+p {
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+  text-align: center;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+footer {
+  margin-top: 200px;
+}

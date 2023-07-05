@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="./pico-master/css/pico.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.10/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./title.png" />
+    <title>Beshify</title>
+  </head>
+  <body>
+    <main>
+      <h1>🤸‍♀️Beshify🤸‍♀️</h1>
+      <div class="input">
+        <!-- Input section -->
+        <div class="input-con">
+          <input
+            type="text"
+            id="input"
+            placeholder="Enter text.."
+            oninput="addEmoji();"
+          />
+        </div>
+        <button class="copy" id="copy-button" onclick="copyOutputText()">
+          <i class="far fa-clipboard fa-sm" style="color: #f8f9fc"></i>
+        </button>
+      </div>
+      <div class="output">
+        <p id="output"></p>
+      </div>
+    </main>
+
+    <footer>
+      <hr />
+      <p>Created by: Leoniel Nacman</p>
+      <div class="social">
+        <a href="https://github.com/LeonielGNacman"
+          ><i class="fa-brands fa-github fa-lg"></i
+        ></a>
+        <a href="https://www.facebook.com/LeonielNacman0/"
+          ><i class="fa-brands fa-facebook-f fa-lg"></i
+        ></a>
+        <a href="https://www.instagram.com/_leonielgarin/"
+          ><i class="fa-brands fa-instagram fa-lg"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.all.min.js"></script>
+  <script src="./script.js"></script>
+</html>
