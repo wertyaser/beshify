@@ -33,7 +33,7 @@ main h1 {
 .output {
   font-family: "Cascadia Code", Consolas, "Courier New", monospace;
   min-width: 360px;
-  margin-inline: 250px;
+  /* margin-inline: 250px; */
 }
 .output p {
   font-size: 30px;
