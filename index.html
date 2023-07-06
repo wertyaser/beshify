@@ -18,23 +18,23 @@
   </head>
   <body>
     <main>
-      <h1>🤸‍♀️Beshify🤸‍♀️</h1>
-      <div class="input">
-        <!-- Input section -->
-        <div class="input-con">
+      <div class="container">
+        <h1>🤸‍♀️Beshify🤸‍♀️</h1>
+        <div class="input">
+          <!-- Input section -->
           <input
             type="text"
             id="input"
             placeholder="Enter text.."
             oninput="addEmoji();"
           />
+          <button class="copy" id="copy-button" onclick="copyOutputText()">
+            <i class="far fa-clipboard" style="color: #f8f9fc"></i>
+          </button>
         </div>
-        <button class="copy" id="copy-button" onclick="copyOutputText()">
-          <i class="far fa-clipboard fa-sm" style="color: #f8f9fc"></i>
-        </button>
-      </div>
-      <div class="output">
-        <p id="output"></p>
+        <div class="output">
+          <p id="output"></p>
+        </div>
       </div>
     </main>
 
